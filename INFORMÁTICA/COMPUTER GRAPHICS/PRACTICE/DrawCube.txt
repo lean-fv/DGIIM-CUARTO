@@ -1,0 +1,39 @@
+void DrawCube()
+{
+		glBegin(GL_QUADS);			// top face
+			glVertex3f(0.5f, 0.5f, 0.5f);	
+			glVertex3f(0.5f, 0.5f, -0.5f);
+			glVertex3f(-0.5f, 0.5f, -0.5f);
+			glVertex3f(-0.5f, 0.5f, 0.5f);
+		glEnd();
+		glBegin(GL_QUADS);			// front face
+			glVertex3f(0.5f, 0.5f, 0.5f);	
+			glVertex3f(-0.5f, 0.5f, 0.5f);
+			glVertex3f(-0.5f, -0.5f, 0.5f);
+			glVertex3f(0.5f, -0.5f, 0.5f);
+		glEnd();
+		glBegin(GL_QUADS);			// right face
+			glVertex3f(0.5f, 0.5f, 0.5f);	
+			glVertex3f(0.5f, -0.5f, 0.5f);
+			glVertex3f(0.5f, -0.5f, -0.5f);
+			glVertex3f(0.5f, 0.5f, -0.5f);
+		glEnd();
+		glBegin(GL_QUADS);			// left face
+			glVertex3f(-0.5f, 0.5f, 0.5f);	
+			glVertex3f(-0.5f, 0.5f, -0.5f);
+			glVertex3f(-0.5f, -0.5f, -0.5f);
+			glVertex3f(-0.5f, -0.5f, 0.5f);
+		glEnd();
+		glBegin(GL_QUADS);			// bottom face
+			glVertex3f(-0.5f, -0.5f, 0.5f);
+			glVertex3f(-0.5f, -0.5f, -0.5f);
+			glVertex3f(0.5f, -0.5f, -0.5f);
+			glVertex3f(0.5f, -0.5f, 0.5f);	
+		glEnd();
+		glBegin(GL_QUADS);			// back face
+			glVertex3f(0.5f, -0.5f, -0.5f);
+			glVertex3f(-0.5f, -0.5f, -0.5f);
+			glVertex3f(-0.5f, 0.5f, -0.5f);
+			glVertex3f(0.5f, 0.5f, -0.5f);	
+		glEnd();
+}

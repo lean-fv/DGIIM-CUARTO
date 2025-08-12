@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1734689039 source:c:\users\manga\onedrive\escritorio\leandro\4º\computer graphics\cg_ticktacktoe\main.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_opengl.h>
+	<GL/glu.h>
+	<math.h>
+	<iostream>
+

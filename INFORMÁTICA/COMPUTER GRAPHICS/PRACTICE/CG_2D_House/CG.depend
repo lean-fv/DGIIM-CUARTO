@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1730119359 source:c:\users\manga\onedrive\escritorio\leandro\4º\computer graphics\cg\introduction.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_opengl.h>
+	<GL/glu.h>
+
+1730116618 source:c:\users\manga\onedrive\escritorio\leandro\4º\computer graphics\cg\2d_house.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_opengl.h>
+	<GL/glu.h>
+
+1730116724 source:c:\users\manga\onedrive\escritorio\leandro\4º\computer graphics\cg\2d_house.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_opengl.h>
+	<GL/glu.h>
+

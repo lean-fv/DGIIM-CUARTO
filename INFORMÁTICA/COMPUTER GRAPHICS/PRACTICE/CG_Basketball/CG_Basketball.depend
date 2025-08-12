@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1736768685 source:c:\users\manga\onedrive\escritorio\leandro\4º\computer graphics\cg_basketball\main.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_opengl.h>
+	<GL/glu.h>
+	<math.h>
+	<iostream>
+

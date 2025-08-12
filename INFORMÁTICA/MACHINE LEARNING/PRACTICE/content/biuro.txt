@@ -1,0 +1,7 @@
+nazwa,liczba
+ksi¹¿ka,10
+zeszyt,23
+d³ugopis,7
+o³ówek,9
+p³yta CD,20
+teczka biurowa,15

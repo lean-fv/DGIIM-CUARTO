@@ -1,0 +1,51 @@
+#ifndef GENERATOR_H
+#define GENERATOR_H
+
+#include <vector>
+#include <iostream>
+
+using namespace std;
+
+const int N_PERMUTATIONS = 100; // Number of permutations to generate
+const int LOWER_BOUND = 2; // Lower bound for board size
+const int UPPER_BOUND = 4; // Upper bound for board size
+
+////////////////////////////////////////////////////////////////////////////////////////////
+/**
+ * @brief Function to get a random number from the vector without repetition.
+ * @param v The vector from which to get the random number
+ * @return A random number from the vector
+ */
+int getNum(vector<int>& v);
+////////////////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+/**
+ * @brief Function to generate a random vector of n different numbers.
+ * @param n The number of different numbers to generate
+ * @return A vector of n different random numbers
+ */
+vector<int> generateRandom(int n);
+////////////////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+/**
+ * @brief Function to generate a permuted matrix.
+ * @param n The size of the matrix (n x n)
+ * @return A permuted matrix of size n x n
+ */
+vector<vector<int>> generateBoard(int n);
+////////////////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+/**
+ * @brief Function to show a matrix.
+ * @param matrix The matrix to show
+ */
+void showMatrix(const vector<vector<int>>& matrix);
+////////////////////////////////////////////////////////////////////////////////////////////
+
+#endif // GENERATOR_H

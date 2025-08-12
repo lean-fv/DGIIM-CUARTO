@@ -1,0 +1,15 @@
+ID,wiek,dochod,student,status,kupi_komputer
+1,<=30,wysoki,nie,kawaler,nie
+2,<=30,wysoki,nie,zonaty,nie
+3,31..40,wysoki,nie,kawaler,tak
+4,>40,sredni,nie,kawaler,tak
+5,>40,niski,tak,kawaler,tak
+6,>40,niski,tak,zonaty,nie
+7,31..40,niski,tak,zonaty,tak
+8,<=30,sredni,nie,kawaler,nie
+9,<=30,niski,tak,kawaler,tak
+10,>40,sredni,tak,kawaler,tak
+11,<=30,sredni,tak,zonaty,tak
+12,31..40,sredni,nie,zonaty,tak
+13,31..40,wysoki,tak,kawaler,tak
+14,>40,sredni,nie,zonaty,nie

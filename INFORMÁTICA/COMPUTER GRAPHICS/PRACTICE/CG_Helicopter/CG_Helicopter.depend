@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1730802456 source:c:\users\manga\onedrive\escritorio\leandro\4º\computer graphics\cg_helicopter\main.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_opengl.h>
+	<GL/glu.h>
+
